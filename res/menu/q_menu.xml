@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<item 
+    android:id="@+id/q_refresh"
+    android:title="@string/q_refresh"
+    />    
+<item
+    android:id="@+id/q_auto"
+    android:title="@string/q_auto"
+    />
+</menu>

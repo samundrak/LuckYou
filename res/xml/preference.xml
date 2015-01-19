@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory  android:title="@string/pr_general">
+        <CheckBoxPreference
+            android:key="pr_sound"
+            android:title="@string/pr_sound"
+            android:summary="@string/pr_sound_details"
+            android:defaultValue="true"
+            />
+      <!--   <CheckBoxPreference
+            android:key="pr_notification"
+            android:title="@string/pr_notification"
+            android:summary="@string/pr_notification_details"
+            android:defaultValue="true"
+            /> --> 
+        <CheckBoxPreference
+            android:key="pr_vibration"
+            android:title="@string/pr_vibration"
+            android:summary="@string/pr_vibration_details"
+            android:defaultValue="true"
+            />
+          <EditTextPreference
+            android:key="pr_name"
+            android:title="@string/pr_name"
+            android:summary="@string/pr_name_details"
+            android:defaultValue="@string/pr_default_name"
+            />
+          
+    </PreferenceCategory> 
+
+</PreferenceScreen>

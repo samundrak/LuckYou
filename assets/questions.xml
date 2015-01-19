@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+    <question>
+        <que>You got chance to fill DV(Direct visa) to stay in U.S.A , now choose any one application form which will provide you Direct Visa to U.S.A?
+        </que>
+        <possibility>5</possibility>
+		<type>manual</type>
+        <code>1</code>
+        <value>Visa</value>
+    </question>
+    <question>
+        <que>You have got 4 packets of noodles in which some packets contains no MASALA?</que>
+        <possibility>80</possibility>
+		<type>manual</type>
+        <code>2</code>
+        <value>noodle</value>
+    </question>
+    <question>
+        <que>You have no License and you are going somewhere in bike now select one highway where there is no checking ? </que>
+        <possibility>50</possibility>
+		<type>manual</type>
+        <code>3</code>
+        <value>highway</value>
+    </question>
+    <question>
+        <que>You have to select  a group of 4 cards and lets see you will win or not, so select any one card ?</que>
+        <possibility>30</possibility>
+		<type>manual</type>
+        <code>4</code>
+        <value>cards</value>
+    </question>
+    <question>
+        <que>Your are returning back home after long drive and your mobile battery is almost going to be full empty now lets see is there power in your home or not?</que>
+        <possibility>50</possibility>
+		<type>auto</type>
+        <code>5</code>
+        <value>power</value>
+    </question>
+    <question>
+        <que>You didn't did your homework and you are now in school now lets see your teacher check your homework or not?</que>
+        <possibility>90</possibility>
+		<type>auto</type>
+        <code>6</code>
+        <value>homework</value>
+    </question>
+    <question>
+        <que>You are in a quiz show and this is your last question which will make you millionere now choose any one option which is correct answer ?</que>
+        <possibility>25</possibility>
+		<type>manual</type>
+        <code>7</code>
+        <value>answer</value>
+    </question>
+     
+    <question>
+        <que>You are going to watch movie in cinema hall in which 3 halls are running housefull now choose any one cinema hall which is not running housefull?</que>
+        <possibility>100</possibility>
+		<type>manual</type>
+        <code>8</code>
+        <value>hall</value>
+    </question>  
+    <question>
+        <que>You bought a lottery coupon now choose any one lootery coupon which whill provide you a CAR ?</que>
+        <possibility>10</possibility>
+		<type>manual</type>
+        <code>9</code>
+        <value>lottery</value>
+    </question>
+        <question>
+        <que>Guess a number which i am thinking now from 1 to 10 ? </que>
+        <possibility>10</possibility>
+		<type>input</type>
+        <code>10</code>
+        <value>guess</value>
+    </question>
+</main>

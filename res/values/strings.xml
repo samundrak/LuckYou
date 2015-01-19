@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Luck You</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="lucktitle">hello, samundr kc</string>
+    <string name="luck">80%</string>
+    <string name="luckdetails">dherai cha</string>
+    <string name="submit"> Submit</string>
+    <string name="hint">Enter Your Name</string>
+    <string name="que">where do you live and what  do you do in what matter is ur name for wht u r going </string>
+    <string name="details">Details</string>
+    <string name="n_ca">CorrectAnswer:</string>
+    <string name="n_luck">Luck:</string>
+    <string name="n_name">Name:</string>
+    <string name="r_settings">Settings</string>
+    <string name="pr_reset">Reset</string>
+    <string name="pr_reset_details">Reset all data and begin from start</string>
+    <string name="q_refresh">Refesh</string>
+    <string name="q_asked_def">0</string>
+    <string name="q_asked">Asked</string>
+    <string name="q_correct">Correct</string>
+    <string name="q_auto">Auto answer</string>
+    <string name="q_showinfo">This App will ask you ten questions with four options each and you have to choose any one option. If you have luck then the answer you choosed will be right, Its all depend on how is your luck today.</string>
+    <string name="pr_general">General</string>
+    <string name="pr_sound">Sound</string>
+    <string name="pr_sound_details">Enable Sound while opening app or running app</string>
+    <string name="pr_notification">Notification</string>
+    <string name="pr_notification_details">Enable notification for luck test every morning</string>
+    <string name="pr_name">Change Name</string>
+    <string name="pr_default_name">Your new name..</string>
+    <string name="pr_name_details">Change your name used in this app</string>
+    <string name="pr_vibration">Vibration</string>
+    <string name="pr_vibration_details">Enable Vibration when answer is right</string>
+    <string name="info_input">\"Please provide us your name to go ahead \"</string>
+    <string name="close">Close</string>
+
+</resources>

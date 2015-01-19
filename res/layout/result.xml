@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+   	 android:background="@drawable/bg_color"
+     >
+ <LinearLayout  
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+   
+      >
+   
+     <!--This will be header with name and image  -->
+    <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="70sp"
+         android:background="@drawable/bg_color_no_shadow"
+   
+         android:weightSum="100"
+         
+          >
+
+        <ImageView
+            android:layout_width="84dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:contentDescription="@string/lucktitle"
+            android:fitsSystemWindows="false"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:src="@drawable/ic_user" />
+
+        <TextView
+            android:id="@+id/lucktitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:maxHeight="70dp"
+            android:maxLines="1"
+            android:text="@string/lucktitle"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:typeface="normal" />
+
+    </LinearLayout>
+    
+     <!--This will be where luck meter will be shown-->
+    <LinearLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="200sp"
+         android:orientation="vertical"
+         android:background="@drawable/bg_texture"
+        >
+     <FrameLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="200sp"
+         android:orientation="vertical"
+         android:background="@drawable/bg_texture"
+         >
+         <TextView 
+             android:id="@+id/r_luckmeter"
+             android:layout_width="fill_parent"
+             android:layout_height="200sp"
+             android:text="@string/q_asked_def"
+             android:textSize="100sp"
+             android:gravity="center"
+             android:textColor="#ffff"
+             android:textStyle="bold"
+             style="@style/textShadow"
+             />
+         <ImageView 
+             android:layout_width="fill_parent"
+             android:layout_height="200sp"
+             android:contentDescription="@string/luck"
+             android:background="@drawable/bg_luckshow"
+             />
+     </FrameLayout>
+    </LinearLayout>   
+    
+     <!--This will be where luck additional details will be show-->
+    <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="250sp"
+         android:orientation="vertical"
+         android:background="@drawable/bg_texture"
+        >
+        <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="70sp"
+          android:background="@drawable/bg_color"
+   		
+         android:weightSum="100"
+            >
+         <!--This will be Details header box-->
+
+               <ImageView
+                   android:layout_width="41dp"
+                   android:layout_height="match_parent"
+                   android:layout_gravity="left"
+                   android:contentDescription="@string/lucktitle"
+                   android:fitsSystemWindows="false"
+                   android:gravity="left"
+                   android:paddingLeft="5dp"
+                   android:src="@drawable/ic_details" />
+
+        <TextView
+            android:id="@+id/details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:maxHeight="80dp"
+            android:maxLines="1"
+            android:paddingLeft="5dp"
+            android:text="@string/details"
+            android:textColor="#ffff"
+            android:textSize="25sp"
+            android:typeface="normal" />
+
+    </LinearLayout>
+    
+    
+    <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="50sp"
+         android:layout_marginTop="5dp"
+         android:weightSum="100"
+         android:background="@drawable/bg_color"
+             android:layout_margin="3dp"
+        >
+     <!--This will be name text box and -->    
+     
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:contentDescription="@string/lucktitle"
+            android:fitsSystemWindows="false"
+            android:gravity="left"
+            android:paddingLeft="5dp"
+            android:src="@drawable/ic_name" />
+
+        <TextView
+            android:id="@+id/i_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:gravity="center_vertical"
+            android:maxHeight="80dp"
+            android:maxLines="1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/n_name"
+            android:textColor="#ffff"
+            android:textSize="25sp"
+            android:typeface="normal" />
+
+          <TextView
+              android:id="@+id/userName"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_gravity="bottom"
+              android:layout_marginLeft="5dp"
+              android:gravity="center_vertical"
+              android:maxHeight="80dp"
+              android:maxLines="1"
+              android:paddingLeft="10dp"
+              android:text="@string/n_name"
+              android:textColor="#ffff"
+              android:textSize="25sp"
+              android:typeface="normal" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+         android:layout_width="fill_parent"
+         android:background="@drawable/bg_color"
+         android:layout_marginTop="3dp"
+          android:layout_margin="3dp"
+         android:layout_height="50sp"
+         android:weightSum="100"
+         >
+
+		 <ImageView
+		     android:layout_width="42dp"
+		     android:layout_height="match_parent"
+		     android:layout_gravity="left"
+		     android:contentDescription="@string/lucktitle"
+		     android:fitsSystemWindows="false"
+		     android:gravity="left"
+		     android:paddingLeft="5dp"
+		     android:src="@drawable/ic_luck" />
+
+        <TextView
+            android:id="@+id/i_luck"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:maxHeight="80dp"
+            android:maxLines="1"
+            android:paddingLeft="8dp"
+            android:paddingRight="15dp"
+            android:text="@string/n_luck"
+            android:textColor="#ffff"
+            android:textSize="25sp"
+            android:typeface="normal" />
+        
+         <TextView
+             android:id="@+id/showluck"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_gravity="center_vertical"
+             android:layout_marginLeft="5dp"
+             android:gravity="center_vertical"
+             android:maxHeight="80dp"
+             android:maxLines="1"
+             android:paddingLeft="10dp"
+             android:text="@string/n_name"
+             android:textColor="#ffff"
+             android:textSize="35sp"
+             android:typeface="normal" 
+             android:textStyle="bold"
+              />
+
+         <!--This will be luck details box-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/bg_color"
+         android:layout_margin="3dp"
+        android:weightSum="100" >
+        
+         <ImageView
+             android:layout_width="42dp"
+             android:layout_height="match_parent"
+             android:layout_gravity="bottom"
+             android:contentDescription="@string/lucktitle"
+             android:fitsSystemWindows="false"
+             android:gravity="left"
+             android:paddingLeft="5dp"
+             android:src="@drawable/ic_correct" />
+
+        <TextView
+            android:id="@+id/i_ca"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:maxHeight="80dp"
+            android:maxLines="1"
+            android:paddingLeft="5dp"
+            android:paddingRight="3dp"
+            android:text="@string/n_ca"
+            android:textColor="#ffff"
+            android:textSize="25sp"
+            android:typeface="normal" />
+        
+         <TextView
+             android:id="@+id/correctAnswer"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_gravity="center_vertical"
+             android:layout_marginLeft="5dp"
+             android:gravity="center_vertical"
+             android:maxLines="1"
+             android:paddingLeft="10dp"
+             android:text="@string/n_name"
+             android:textColor="#ffff"
+             android:textSize="35sp"
+             android:typeface="normal" 
+             android:textStyle="bold"
+         	/>
+
+    </LinearLayout>
+     <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+         android:background="@drawable/bg_color_no_shadow"
+        android:layout_marginTop="5dp"
+        ></LinearLayout>
+    </LinearLayout>
+   
+    </LinearLayout>
+</ScrollView>
